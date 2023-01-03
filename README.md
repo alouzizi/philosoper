@@ -8,12 +8,7 @@
     it comprise A thread Id A program counter A register set  and A stack
     
     it shares with other threads belonging to the same process its code section, data section, and ther operating-system resources, such as open files and signals.
-    
-
-![Screen Shot 2022-04-20 at 9.36.24 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abd548d4-d3b9-402f-9ca6-49a52da393cc/Screen_Shot_2022-04-20_at_9.36.24_PM.png)
-
-                 single_threaded process                                        Multi_threaded process
-
+ 
 - **Benefits of multithreaded** :
     - **Responsiveness** : One thread may provide rapid response while other threads are blocked or slowed down doing intensive calculations.
     - **Resource sharing** : By default threads share common code, data, and other resources, which allows multiple tasks to be performed simultaneously in a single address space.
@@ -58,5 +53,3 @@ The first function above releases the lock and the second function destroys the 
 # semaphores
 
 - A semaphore is a data structure used to help threads work together without interfering with each other.
-    
-                                                                                                                                                      by: Ali_louzizi
